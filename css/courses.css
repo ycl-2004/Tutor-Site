@@ -1,0 +1,158 @@
+/* SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98  */
+
+/* ------------------------------------------- */
+/* Info */
+
+.courses {
+  background-image: linear-gradient(to right bottom, #f1ece5, #f2f4fb);
+}
+
+.courses-container {
+  padding: 6.4rem;
+  max-width: 120rem;
+
+  margin: 0 auto;
+}
+
+.courses-title {
+  font-size: 4.4rem;
+  font-weight: 700;
+
+  text-align: center;
+
+  color: #2a2e33;
+
+  margin-bottom: 1rem;
+}
+
+.courses-sub-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #a9abb0;
+
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+
+  margin-bottom: 2.4rem;
+}
+
+.courses-grid-2-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  gap: 9.6rem;
+}
+
+.courses-flex-2-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 7.2rem;
+}
+
+.grid-2-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 4.8rem;
+}
+
+.container {
+  text-align: left;
+  padding: 4.6rem;
+
+  background-color: #d4f1f4;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 3.2rem;
+}
+
+.container:first-child {
+  justify-self: end;
+}
+
+.container:last-child {
+  justify-self: start;
+}
+
+.courses-location-titie {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #a9abb0;
+
+  line-height: 1.5;
+
+  margin-bottom: 1.2rem;
+}
+
+.courses-location-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  color: red;
+}
+
+.courses-location-lists {
+  list-style: none;
+}
+
+.courses-list-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.courses-list-item {
+  padding: 0 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.courses-location-list,
+.courses-list {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+
+  color: #7f8285;
+}
+
+.courses-list-icon {
+  width: 2rem;
+  height: 2rem;
+
+  color: rebeccapurple;
+}
+
+.courses-lists {
+  list-style: none;
+}
+
+.courses-list {
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  line-height: 1.5;
+}
+
+.courses-final-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  display: block;
+  text-align: center;
+}
+
+.recommend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

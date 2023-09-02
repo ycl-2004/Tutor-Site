@@ -1,0 +1,90 @@
+/* SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98  */
+
+/* ------------------------------------------- */
+/* Tutor Info */
+
+.tutor {
+  background-color: white;
+}
+
+.tutor-container {
+  max-width: 120rem;
+  background-color: white;
+  margin: 0 auto;
+  padding-bottom: 6.4rem;
+}
+
+.tutor-title {
+  font-size: 4.4rem;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+
+  color: #2a2e33;
+}
+
+.tutor-title:first-child {
+  padding-top: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.tutor-main {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 0 4.8em;
+}
+
+.tutor-main-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+
+  gap: 1.6rem;
+}
+
+.tutor-main-title {
+  font-size: 3rem;
+}
+.tutor-main-icon {
+  color: red;
+  width: 3rem;
+}
+
+.tutor-main-text {
+  font-size: 2rem;
+  margin-left: 3.2rem;
+  line-height: 1.5;
+  padding: 1.6rem 2.4rem;
+
+  margin-bottom: 3.2rem;
+
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+}
+
+.tutor-img-set {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2.4rem;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutor-img-textbook {
+  width: 50%;
+  height: fit-content;
+}
+
+.tutor-img-class {
+  width: 60%;
+  height: fit-content;
+}
